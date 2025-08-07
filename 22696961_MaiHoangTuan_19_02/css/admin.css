@@ -1,0 +1,57 @@
+.side-menu li, .sub-menu li { 
+    position: relative;
+    color: white;
+    height: 30px;
+    padding: 10px;
+    background-color: #007bff;
+    align-items: center;
+}
+
+.side-menu li:hover {
+    background-color: #0056b3; /* khi hover */
+}
+
+.side-menu li ul {
+    display: none;
+    position: absolute;
+    left: 100%; /* hiển thị menu con bên phải */
+    top: 0;
+    padding: 5px;;
+    margin: 0;
+    list-style: none;
+    width: 180px;
+    z-index: 1000;
+}
+
+.side-menu li:hover ul {
+    display: block; /* hiển thị menu con khi hover */   
+    
+}
+.sub-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sub-menu a {   
+    height: 30px;
+    color: white;
+    background-color: #007bff;
+    border-radius: 4px;
+    text-decoration: none;
+    
+}
+
+.sub-menu li a:hover {
+    background-color: #0056b3;
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.admin-table th, .admin-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}  

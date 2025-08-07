@@ -1,0 +1,113 @@
+.form{   
+    border-radius: 5px;
+    padding: 20px;
+    background: ghostwhite;
+    box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 30px auto;
+    box-sizing: border-box;
+}
+.form-group {
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"], 
+input[type="password"], 
+input[type="file"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: 0.3s;
+    box-sizing: border-box;
+}
+
+input[type="text"]:hover, 
+input[type="password"]:hover, 
+input[type="file"]:hover {
+    border-color: #007bff;
+    outline: none;
+}
+
+select {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    transition: border-color 0.3s;
+}
+
+select:hover {
+    border-color: #007bff;
+    outline: none;
+}
+
+.btn {
+    width: 20%;
+    display: inline-block;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+label.btnfile {
+    display: inline-block;
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-weight: unset;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+label.btnfile:hover {
+    border-color: #007bff;
+    outline: none;
+}
+
+.form-table{
+    width: 100%;
+    border:none;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+.form-table th, .form-table td {
+    vertical-align: middle;
+    padding: 8px;
+    text-align: center;
+}
+
+.form-table td:last-child {
+    text-align: center;
+}
+.form-table #label {
+    width: 15%;
+    
+}
+#form-img{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
