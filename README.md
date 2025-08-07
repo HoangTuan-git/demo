@@ -1,2 +1,2 @@
-demo basic git command
+demo basic git command /
 testing add a web folder created by PHP
