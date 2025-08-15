@@ -1,6 +1,6 @@
 <?php
     include_once('model/mNguoiDung.php');
-    class controlNguoiDung{
+     controlNguoiDung{
         public function Login($TDN, $MK) : void {
             $p = new modelNguoiDung();
             $MK = md5($MK);
@@ -16,7 +16,7 @@
                     }
                     echo" <script>alert('Đăng nhập thành công!!')</script>";
                     if($_SESSION['DN'] == 3){
-                        header("refresh:0.5;url=index.php");
+                        header("refresh:0.5;url=index.php");;;;;;
                     }else{
                         header("refresh:0.5;url=admin.php");
                     }
